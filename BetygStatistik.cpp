@@ -82,7 +82,7 @@ void Statistik(string amnen [], int poang [], int n, char betyg []) {
     // Skapa en variabel där vi räknar ihop totala betygspoängen
     int totBetyg = 0;
 
-    // Nollställ alla värden i arrayen
+    // Nollställ alla värden i arrayen där antal betyg lagras
     for (int i = 0; i < n+1; i++) {
         betygAntal[i] = 0;
     }
